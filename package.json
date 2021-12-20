@@ -24,6 +24,7 @@
   "scripts": {
     "start": "npx uxpin-merge --disable-tunneling",
     "uxpin": "uxpin-merge --disable-tunneling --webpack-config ./uxpin.webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js",
+    "push": "uxpin-merge push",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
